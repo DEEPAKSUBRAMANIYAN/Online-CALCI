@@ -1,0 +1,59 @@
+body {
+    background-image:url('blank-notepad-calculator-copy-space.jpg');
+    background-position:center center ;
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}   
+.calculator {
+    background-color: pink;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px yellow (0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.display {
+    background-color:rgb(3, 72, 99);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.display input {
+    width: 93%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    background-color:aliceblue;
+    color: black;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    background-color:rgb(6, 111, 153);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:hover {
+    background-color: rosybrown;
+}
